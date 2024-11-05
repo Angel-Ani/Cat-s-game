@@ -14,10 +14,11 @@ What would you like to do?
 2. Feed
 3. Play 
 4. Sleep
-""")                                                                                                                 )
+""")                                                                                                       
     if action == "1":
        my_cat.train()
     elif action == "2":   
+       my_cat.feed()
  
 # We will now make 2 cats
 
