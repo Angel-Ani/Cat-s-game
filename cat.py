@@ -18,23 +18,26 @@ class Cat:
         self.energy -= 5
         self.intelligence += 1
         self.age +=  0.1 
-
+        
     def feed(self):
         print(f"{self.name} is eating...") 
-        self.enegry += 10
+        self.energy += 10
         self.weight += 1
         self.age +=  0.1 
 
     def play(self):
         print(f"{self.name} is playing...") 
-        self.enegry -= 2
+        self.energy -= 2
         self.intelligence += 2
         self.age +=  0.1 
 
     def sleep(self):
         print(f"{self.name} is sleeping...") 
-        self.enegry += 15
+        self.energy += 15
         self.intelligence += 5
         self.age +=  0.1 
+
+    def show_stats(self):
+        print(f'{self.name} has {self.energy} of energy, {self.intelligence} of intelligence, is {self.weight}  in kg and is {self.age} in age ')    
 
 
